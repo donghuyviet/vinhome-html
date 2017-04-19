@@ -1,0 +1,246 @@
+@font-face {
+    font-family: "Roboto Black";
+    src: url("../fonts/Roboto-Black.ttf");
+}
+@font-face {
+    font-family: "Roboto Light";
+    src: url("../fonts/Roboto-Light.ttf");
+}
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+@font-face {
+    font-family: "Roboto MediumItalic";
+    src: url("../fonts/Roboto-MediumItalic.ttf");
+}
+@font-face {
+    font-family: "Roboto LightItalic";
+    src: url("../fonts/Roboto-LightItalic.ttf");
+}
+@font-face {
+    font-family: "Roboto Italic";
+    src: url("../fonts/Roboto-Italic.ttf");
+}
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+@media only screen and (min-width: 320px) {
+.section.animatedParent{
+    padding-bottom: 20px;
+}
+.section-content {
+	padding: 0 20px;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 200px;
+}
+.carousel-control {
+	height: 200px;
+}
+.affix {
+	display: block;
+	width: 100%;
+	background: #ffffff;
+	position: relative !important;
+}
+.logo {
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+}
+.menu-childen {
+	display: block;
+}
+.button-menu {
+	background-color: #d3a02a !important;
+}
+.navbar-toggle .icon-bar {
+	background: #ffffff;
+}
+.animatedParent {
+	padding-bottom: 50px;
+}
+.icon-separated.inner{
+    max-width: 80px;
+    position: absolute;
+    left: 37%;
+    top: -10%;
+}
+.box-number .item {
+    padding: 0;
+    font-size: 12px;
+}
+.box-number strong {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #5c4621;
+    display: block;
+}
+}
+
+@media only screen and (min-width: 480px) {
+.section.animatedParent{
+    padding-bottom: 20px;
+}	
+.section-content {
+	padding: 0 20px;
+}
+.carousel-control{
+	height: 200px;
+}
+.button-menu {
+	background: red;
+}
+.animatedParent {
+	padding-bottom: 50px;
+}
+.icon-separated.inner{
+    max-width: 80px;
+    position: absolute;
+    left: 37%;
+    top: -7%;
+}
+.box-number .item {
+    padding: 0;
+    font-size: 12px;
+}
+.box-number strong {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #5c4621;
+    display: block;
+}
+
+}
+
+@media only screen and (min-width: 767px) {
+.section.animatedParent{
+    padding-bottom: 20px;
+}	
+.section-content {
+	padding: 0 20px;
+}
+.animatedParent {
+	padding-bottom: 50px;
+}
+.icon-separated.inner{
+    max-width: 110px;
+    position: absolute;
+    left: 45%;
+    top: -7%;
+}
+.box-number .item {
+    padding: 0;
+    font-size: 15px;
+}
+.box-number strong {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #5c4621;
+    display: block;
+}
+}
+
+@media only screen and (min-width: 992px) {
+.section.animatedParent{
+    padding-bottom: 20px;
+}	
+.section-content {
+	padding: 0 20px;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 350px;
+}
+.carousel-control {
+	height: 100%;
+}
+.icon-separated.inner{
+    max-width: 110px;
+    position: absolute;
+    left: -40px;
+    top: 40%;
+}
+.box-number strong {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #5c4621;
+    display: block;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+.section.animatedParent{
+    padding-bottom: 30px;
+}
+.section-content {
+	padding: 0 60px;
+    padding-top: 30%;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 538px;
+}
+.affix {
+	background: rgba(211, 160, 42, 0.63);
+    width: 100%;
+    height: 60px;
+    border-radius: 0 !important;
+    display: block;
+    position: fixed !important;
+}
+.affix .logo img {
+	height: 45px;
+}
+.affix .navbar-nav>li>a {
+	color: #ffffff;
+	font: 15px 'Roboto Regular';
+}
+.menu-childen {
+	display: none;
+}
+.icon-separated.inner{
+	max-width: 110px;
+	position: absolute;
+    left: -40px;
+    top: 50%;
+}
+.box-number strong {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #5c4621;
+    display: block;
+}
+.btn-round {
+	min-width: 170px;
+    text-align: center;
+    height: 36px;
+    color: #77777a;
+    border: solid 1px #77777a;
+    border-radius: 18px;
+    padding: 6px 60px;
+    position: relative;
+}
+.item-detail {
+    border: 1px solid !important;
+    border-radius: 20px !important;
+}
+}
