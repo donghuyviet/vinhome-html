@@ -72,8 +72,15 @@
 .icon-separated.inner{
     max-width: 80px;
     position: absolute;
-    left: 37%;
+    left: 40%;
     top: -10%;
+}
+.inner.right{
+    right: 38%;
+    text-align: right;
+    max-width: 80px;
+    position: absolute;
+    top: 54%;
 }
 .box-number .item {
     padding: 0;
@@ -85,6 +92,24 @@
     line-height: 1.2em;
     color: #5c4621;
     display: block;
+}
+.btn-round {
+	min-width: 170px;
+    text-align: center;
+    height: 36px;
+    color: #77777a;
+    border: solid 1px #77777a;
+    border-radius: 18px;
+    padding: 6px 60px;
+    position: relative;
+}
+.item-detail {
+    border: 1px solid !important;
+    border-radius: 20px !important;
+}
+.item-detail:hover, .item-detail.active {
+	background: rgb(211, 160, 42);
+	color: #ffffff !important;
 }
 }
 
@@ -110,6 +135,13 @@
     left: 37%;
     top: -7%;
 }
+.inner.right{
+    right: 33%;
+    text-align: right;
+    max-width: 80px;
+    position: absolute;
+    top: 54%;
+}
 .box-number .item {
     padding: 0;
     font-size: 12px;
@@ -132,13 +164,20 @@
 	padding: 0 20px;
 }
 .animatedParent {
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 }
 .icon-separated.inner{
     max-width: 110px;
     position: absolute;
     left: 45%;
     top: -7%;
+}
+.inner.right{
+    right: 33%;
+    text-align: right;
+    max-width: 80px;
+    position: absolute;
+    top: 54%;
 }
 .box-number .item {
     padding: 0;
@@ -182,6 +221,24 @@
     color: #5c4621;
     display: block;
 }
+.btn-round {
+	min-width: 170px;
+    text-align: center;
+    height: 36px;
+    color: #77777a;
+    border: solid 1px #77777a;
+    border-radius: 18px;
+    padding: 6px 60px;
+    position: relative;
+}
+.item-detail {
+    border: 1px solid !important;
+    border-radius: 20px !important;
+}
+.item-detail:hover, .item-detail.active {
+	background: rgb(211, 160, 42);
+	color: #ffffff !important;
+}
 }
 
 @media only screen and (min-width: 1200px) {
@@ -222,6 +279,14 @@
     left: -40px;
     top: 50%;
 }
+.inner.right{
+	right: -40px;
+    text-align: right;
+    max-width: 110px;
+	position: absolute;
+    top: 50%;
+}
+
 .box-number strong {
     font-size: 30px;
     font-weight: 700;
@@ -242,5 +307,9 @@
 .item-detail {
     border: 1px solid !important;
     border-radius: 20px !important;
+}
+.item-detail:hover, .item-detail.active {
+	background: rgb(211, 160, 42);
+	color: #ffffff !important;
 }
 }
