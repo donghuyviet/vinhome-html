@@ -312,4 +312,13 @@
 	background: rgb(211, 160, 42);
 	color: #ffffff !important;
 }
+.bg-home-modelhouse {
+    background: url('../images/can-ho-mau.jpg');
+    height:162px;
+}
+.section-bg {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
 }
