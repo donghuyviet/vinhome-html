@@ -53,7 +53,6 @@
 	position: relative !important;
 }
 .logo {
-    width: 50%;
     float: left;
     padding-left: 20px;
 }
@@ -305,7 +304,7 @@
     height: 538px;
 }
 .affix {
-	background: rgba(211, 160, 42, 0.63);
+	background: #ffffff;
     width: 100%;
     height: 60px;
     border-radius: 0 !important;
@@ -316,7 +315,6 @@
 	height: 45px;
 }
 .affix .navbar-nav>li>a {
-	color: #ffffff;
 	font: 15px 'Roboto Regular';
 }
 .menu-childen {
