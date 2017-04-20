@@ -76,11 +76,10 @@
     top: -10%;
 }
 .inner.right{
-    right: 38%;
-    text-align: right;
     max-width: 80px;
     position: absolute;
-    top: 54%;
+    left: 40%;
+    top: 45%;
 }
 .box-number .item {
     padding: 0;
@@ -110,6 +109,16 @@
 .item-detail:hover, .item-detail.active {
 	background: rgb(211, 160, 42);
 	color: #ffffff !important;
+}
+.container-main.level {
+    background: url('../images/can-ho-mau.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.item-icon {
+	max-width: 80px;
+	text-align: center;
+	margin: auto;
 }
 }
 
@@ -247,7 +256,7 @@
 }
 .section-content {
 	padding: 0 60px;
-    padding-top: 30%;
+    padding-top: 10%;
 }
 .carousel-inner {
     position: relative;
@@ -312,13 +321,67 @@
 	background: rgb(211, 160, 42);
 	color: #ffffff !important;
 }
-.bg-home-modelhouse {
+.container-main.level {
     background: url('../images/can-ho-mau.jpg');
-    height:162px;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
-.section-bg {
+.container-main.tien-ich {
+    background: url('../images/tien-ich.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.item-icon {
+	max-width: 110px;
+	text-align: center;
+	margin: auto;
+}
+.close {
+    font-size: 50px !important;
+    color: #fff !important;
+    background: rgba(211, 160, 42, 0.85) !important;
+    height: 50px !important;
+    width: 50px !important;
+    border-radius: 30px !important;
+}
+.item-box-news, .news-content {
+	padding: 0 15px;
+	margin-bottom: 20px;
+}
+.hot-news-content {
+	text-align: left;
+	color: #d49f0b;
+}
+.hot-news-content .title a, .hot-news-content .description a {
+	text-align: left;
+    color: #d49f0b;
+}
+.hot-news-content .title a:hover, .hot-news-content .title a:active {
+	text-align: left;
+    color: #5c4621;;
+}
+.news-content .item {
+	display: inline-block;
+	text-align: left;
+	color: #5c4621;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+.news-content .item:before {
+	content: '';
     position: absolute;
-    width: 100%;
-    top: 0;
+    left: 30px;
+    width: 10px;
+    height: 10px;
+    background: #77777a;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.news-content .item a{
+	display: inline-block;
+	text-align: left;
+	color: #5c4621;;
 }
 }

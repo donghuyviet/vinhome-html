@@ -160,3 +160,16 @@ img {
 .box-number,.item-desc {
   padding-bottom: 20px;
 }
+.animatedParent {
+  background: #ffffff;
+}
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+.section-content.tien-ich {
+    padding: 0;
+    padding-top: 0%; 
+}
+.item-desc {
+  padding: 0 20px;
+}
