@@ -1,12 +1,14 @@
 {
-  "name": "supper-bootstrap",
+  "name": "supper-uikit",
   "version": "1.0.0",
-  "description": "A branch version be develop base on Bootstrap v.3.3.6 and Font-Awesome v.4.5.0",
+  "description": "A branch version be develop base on UIkit v.2.26.1",
   "main": "index.js",
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-less": "^3.0.5",
-    "gulp-util": "^3.0.7"
+    "gulp-util": "^3.0.7",
+    "express": "^4.13.4",
+    "gzippo": "^0.2.0"
   },
   "devDependencies": {
     "browser-sync": "^2.11.2",
@@ -28,16 +30,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/donghuyviet/bootstrap-dev.git"
+    "url": "https://github.com/nguyentruonggiang/supper-uikit.git"
   },
   "keywords": [
-    "bootstrap",
-    "supper-bootstrap"
+    "uikit",
+    "supper-uikit"
   ],
   "author": "Giang Nguyen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/donghuyviet/bootstrap-dev/issues"
+    "url": "https://github.com/nguyentruonggiang/supper-uikit/issues"
   },
-  "homepage": "https://github.com/donghuyviet/bootstrap-dev"
+  "homepage": "https://github.com/nguyentruonggiang/supper-uikit"
 }

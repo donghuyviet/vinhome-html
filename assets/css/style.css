@@ -128,6 +128,7 @@ img {
     color: #d49f0b;
     text-transform: uppercase;
     margin-bottom: 20px;
+    min-height: 100px;
 }
 .item-desc {
   text-align: justify;
@@ -172,4 +173,17 @@ img {
 }
 .item-desc {
   padding: 0 20px;
+}
+.btn-submit {
+  text-transform: uppercase;
+    color: #fff !important;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 30px;
+    background-color: #d49f0b !important;
+    -webkit-border-radius: 25px !important; 
+    -moz-border-radius: 25px !important;
+    border-radius: 25px !important;
+    outline: none;
+    cursor: pointer !important;
 }
