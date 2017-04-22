@@ -17,7 +17,7 @@ var data = {
   "scenes": [
     {
       "id": "oriente-station",
-      "name": "Oriente Station",
+      "name": "Tiểu khu Phong Lan",
       "levels": [
         {
           "tileSize": 256,
@@ -59,8 +59,8 @@ var data = {
         {
           "yaw": -0.00038049728702915786,
           "pitch": 0.014985751462495145,
-          "title": "Oriente Station",
-          "text": "The Oriente Station is one of the most important bus and train stations in the city. Designed by the Spanish architect and engineer Santiago Calatrava, it has an enormous metal skeleton that covers the eight train lines and its platforms. Finished in 1998 to serve the Expo’98 and, later, the Parque das Nações area, in its surroundings are companies, services, hotels, bars, animation, as well as the well known Vasco da Gama shopping centre."
+          "title": "Tiểu khu Phong Lan",
+          "text": "Tiểu khu Phong Lan Vinhomes Riverside The Harmony nổi bật mang phong cách kiến trúc Pháp, đất nước nổi tiếng với lối kiến trúc tinh tế, trang nhã, sang trọng. Kiến trúc Pháp lãng mạn vốn chú tâm đến việc tạo dựng nên các công trình định hình phong cách trang nhã sang trọng. Các căn biệt thự tại tiểu khu Phong Lan, chắc chắn sẽ mang tới cho các quý chủ nhân có gu thẩm mỹ tinh tế sự lựa chọn khác biệt và xứng tầm."
         }
       ]
     },
@@ -108,14 +108,14 @@ var data = {
         {
           "yaw": -0.1606464893205768,
           "pitch": -0.17433292221669205,
-          "title": "Boilers Room",
-          "text": "In the impressive Boilers Room at the Electricity Museum we find four large boilers of about 100 feet tall, with their respective control panels, air and fuel circuits, ventilators, etc. Boiler number 15 has been musealised and visitors may go in and discover its structure and internal component: conveyor belt, Bailey walls, naphtha burners, water heating tubes, and so on."
+          "title": "Tiểu khu Hướng Dương",
+          "text": "Tiểu khu Hướng Dương Vinhomes Riverside The Harmony được các kiến trúc sư chú trọng tạo nên điểm nhấn nổi bật kiến trúc địa phương thuần chất Á Đông cùng tinh hoa của kiến trúc Pháp. Sự kết hợp đầy tinh tế của hai nền văn hóa này tạo nên cho các ngôi biệt thự một nét đặc trưng về kiến trúc không thể hòa lẫn."
         }
       ]
     },
     {
       "id": "jeronimos",
-      "name": "Jerónimos Monastery",
+      "name": "Tiểu khu Nguyệt Quế",
       "levels": [
         {
           "tileSize": 256,
@@ -157,8 +157,8 @@ var data = {
         {
           "yaw": 0.5350080558065997,
           "pitch": 0.24525106321929435,
-          "title": "Jerónimos Monastery",
-          "text": "The Jerónimos Monastery cloister is a pleasant and serene place intended to foster monks’ prayers and meditation. Its manuelin decoration features decorative religious, nautical and royal elements, as well as vegetal motifs. Since 1985, the tomb of the poet Fernando Pessoa rests in the north wing of the cloister’s ground floor."
+          "title": "Tiểu khu Nguyệt Quế",
+          "text": "Tiểu khu Nguyệt QuếVinhomes Riverside The Harmony là sự hội tụ tinh hoa của thiết kế cổ điển, mang cảm hứng từ ngôi đền Parthenon nổi tiếng, với sự cách tân mang hơi hướng hiện đại. Các ngôi biệt thự sang trọng và bề thế tại Vinhomes Riverside The Harmony đem tới cho các chủ nhân một không gian sống hoàn mỹ, hợp lý trong bố trí không gian sinh hoạt mang phong cách thiết kế phù hợp với sở thích riêng của gia chủ."
         }
       ]
     }

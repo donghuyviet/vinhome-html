@@ -72,7 +72,7 @@
 
   // Create scenes.
   var scenes = data.scenes.map(function(sceneData) {
-    var urlPrefix = "//www.marzipano.net/media";
+    var urlPrefix = "../sample-tour/media";
     var source = Marzipano.ImageUrlSource.fromString(
       urlPrefix + "/" + sceneData.id + "/{z}/{f}/{y}/{x}.jpg",
       { cubeMapPreviewUrl: urlPrefix + "/" + sceneData.id + "/preview.jpg" });
